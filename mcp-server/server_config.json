@@ -1,0 +1,27 @@
+{
+  "app": {
+    "name": "gemini-ai-chatbot",
+    "version": "unknown",
+    "description": ""
+  },
+  "stack": "node",
+  "routes": [],
+  "pages": [],
+  "base_url": "http://localhost:3000",
+  "module": null,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "preview": "next build && next start",
+    "seed": "node -r dotenv/config ./scripts/seed.mjs",
+    "type-check": "tsc --noEmit",
+    "format:write": "prettier --write \"{app,lib,components}/**/*.{ts,tsx,mdx}\" --cache",
+    "format:check": "prettier --check \"{app,lib,components}**/*.{ts,tsx,mdx}\" --cache"
+  },
+  "server": "mcp-server/server.mjs",
+  "runner": "node",
+  "runner_cmd": "node"
+}

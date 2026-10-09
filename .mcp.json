@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gemini-ai-chatbot": {
+      "command": "node",
+      "args": [
+        "mcp-server/server.mjs"
+      ]
+    }
+  }
+}
